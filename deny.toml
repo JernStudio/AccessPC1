@@ -1,0 +1,15 @@
+# cargo-deny licence policy (starting point; verify against your cargo-deny version).
+# Model weights, wake-word engines, vendor SDKs and datasets are NOT covered by
+# this file. Track them in docs/licences/THIRD_PARTY.md.
+[licenses]
+allow = [
+  "GPL-3.0-or-later",
+  "MIT",
+  "Apache-2.0",
+  "BSD-2-Clause",
+  "BSD-3-Clause",
+  "ISC",
+  "MPL-2.0",
+  "Unicode-DFS-2016",
+]
+confidence-threshold = 0.9
